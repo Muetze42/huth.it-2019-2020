@@ -1,0 +1,41 @@
+{
+  "name": "bio-link",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Build": "gulp build",
+    "Dev": "gulp dev",
+    "Watch": "gulp Watch",
+    "NPMcheckUpdates": "ncu",
+    "NPMinstallUpdates": "ncu -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://muetzeofficial@bitbucket.org/muetzeofficial/bio-link.git"
+  },
+  "author": "Norman Huth <contact@normanhuth.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/muetzeofficial/bio-link#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "autoprefixer": "^9.7.4",
+    "bootstrap": "^4.4.1",
+    "bootstrap-select": "^1.13.12",
+    "datatables.net-bs4": "^1.10.20",
+    "ekko-lightbox": "^5.3.0",
+    "flag-icon-css": "^3.4.6",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-include": "^2.4.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0",
+    "jquery": "^3.4.1",
+    "npm-check-updates": "^4.0.1",
+    "postcss-flexbugs-fixes": "^4.2.0",
+    "simple-lightbox": "^2.1.0"
+  },
+  "devDependencies": {}
+}
